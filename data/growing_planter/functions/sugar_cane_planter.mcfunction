@@ -1,0 +1,2 @@
+execute as @s[nbt={Item:{id:"minecraft:sugar_cane"}}] at @s if block ~ ~-.75 ~ #growing_planter:sugar_cane_plantable run function auto_planter_core:check_water
+execute as @s[nbt={Item:{id:"minecraft:sugar_cane"}},tag=plantSapling] at @s run setblock ~ ~.25 ~ minecraft:sugar_cane
