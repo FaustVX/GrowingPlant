@@ -1,2 +1,2 @@
-execute as @s[nbt={Item:{id:"minecraft:bamboo"}}] at @s if block ~ ~-.75 ~ #minecraft:bamboo_plantable_on run tag @s add faustvx.plant
+execute as @s[nbt={Item:{id:"minecraft:bamboo"}}] at @s if block ~ ~-.75 ~ #growing_planter:bamboo_plantable_on run tag @s add faustvx.plant
 execute as @s[nbt={Item:{id:"minecraft:bamboo"}},tag=faustvx.plant] at @s run setblock ~ ~.25 ~ minecraft:bamboo_sapling
